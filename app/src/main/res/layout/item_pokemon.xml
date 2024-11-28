@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvPokemonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Pokemon Name"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvPokemonHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#383737"
+        android:text="Pokemon Height"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tvPokemonWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#383737"
+        android:text="Pokemon Weight" />
+
+</LinearLayout>
